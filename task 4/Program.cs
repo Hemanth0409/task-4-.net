@@ -30,13 +30,17 @@ namespace task_4
             //prg2 queue = new prg2();
             //queue.Queue();
 
-            //LinkedList
-            LinkedList1 linkedList = new LinkedList1();
-            linkedList.LinkedList();
+            ////LinkedList
+            //LinkedList1 linkedList = new LinkedList1();
+            //linkedList.LinkedList();
 
             ////HashSet
             //Hashset hashset = new Hashset();
             //hashset.HashSet();
+
+            //attendance& mark
+            TraineeDetails mark = new TraineeDetails();
+            mark.GetDetails();
 
             Console.ReadKey();  
         }
