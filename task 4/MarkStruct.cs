@@ -27,7 +27,7 @@ namespace task_4
             AttendanceDays = attendanceDays;
             for (int i = 0; i < attendanceDays; i++)
             {
-               
+
                 Console.Write($"Day{i} (p/a):");
                 char val = Convert.ToChar(Console.ReadLine());
                 Console.WriteLine("\n");
@@ -40,8 +40,8 @@ namespace task_4
                     a++;
                 }
             }
-            Console.WriteLine("Number of days Present",p);
-            Console.WriteLine("Number of days Absent", a);
+            Console.WriteLine("Number of days Present:"+ p);
+            Console.WriteLine("Number of days Absent:"+a);
         }
     }
 }

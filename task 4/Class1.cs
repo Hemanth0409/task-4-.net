@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace task_4
 {
-    public partial class prg2
+    public partial class Program
     {
         public void Queue()
         {
@@ -15,6 +15,10 @@ namespace task_4
             Q1.Enqueue(2);
             Q1.Enqueue(3);
             Q1.Enqueue(4);
+
+            Console.WriteLine("\n");
+            Console.WriteLine("Queue:");
+
             Console.WriteLine("Number of Integer:{0}", Q1.Count);
             Console.WriteLine("\n");
             Console.WriteLine("****Befor dequeue****");
